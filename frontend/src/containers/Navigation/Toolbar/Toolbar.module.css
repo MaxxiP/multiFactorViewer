@@ -1,0 +1,41 @@
+/* Source Maximilian Schwarzmüller
+ https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8125740#overview */
+.Toolbar {
+  height: 56px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+  box-shadow: 0 2px 3px #ccc;
+}
+
+.Toolbar nav {
+  height: 100%;
+}
+
+.Logo {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.UserMail {
+  align-items: center;
+}
+
+.UserMail > p {
+  margin: 0 0 0 15px;
+}
+
+@media (max-width: 499px) {
+  .DesktopOnly {
+    display: none;
+  }
+}

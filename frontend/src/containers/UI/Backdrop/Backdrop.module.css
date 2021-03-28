@@ -1,0 +1,11 @@
+/* Source Maximilian Schwarzmüller
+ https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8125740#overview */
+.Backdrop {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 199;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
